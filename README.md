@@ -23,7 +23,7 @@ Esta aplicación consume la API de restcountries.com la cual presenta un listado
 Dividi mi aplicación en tres capas principales
 
 - Capa Network - Donde utilice Retrofit y Gson, para realizar las consultas al endpoint.
-- Capa ViewModel - En esta capa la aplicacion controla la lógica de los componentes, los estados y los llamados a la capa Network.
+- Capa ViewModel - En esta capa la aplicacion controla la lógica de los componentes, los estados, persistencia de datos y los llamados a la capa Network.
 - Capa UI - En esta capa presentamos la información traida del endpoint.
 - Capa de navegación - En esta capa se controlan las pantallas que se muestran.
 - Capa Model - En esta capa defini los tipos de datos que utilizo.
