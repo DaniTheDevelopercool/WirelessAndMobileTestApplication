@@ -1,7 +1,10 @@
-package com.example.wirelessandmobiletestapplication.models
+package com.example.wirelessandmobiletestapplication.Model
+
+import com.google.gson.reflect.TypeToken
+import java.lang.reflect.Type
 
 typealias Countries = ArrayList<Country>
-
+var listType: Type = object : TypeToken<Countries>() {}.type
 data class Country (
     val name: Name,
     val tld: List<String>? = null,
