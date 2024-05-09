@@ -1,4 +1,4 @@
-package com.example.wirelessandmobiletestapplication.network
+package com.example.wirelessandmobiletestapplication.Network
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

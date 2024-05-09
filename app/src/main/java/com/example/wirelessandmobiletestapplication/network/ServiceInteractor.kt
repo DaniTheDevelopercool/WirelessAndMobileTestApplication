@@ -1,6 +1,6 @@
-package com.example.wirelessandmobiletestapplication.network
+package com.example.wirelessandmobiletestapplication.Network
 
-import com.example.wirelessandmobiletestapplication.models.Countries
+import com.example.wirelessandmobiletestapplication.Model.Countries
 import retrofit2.Call
 import retrofit2.http.GET
 
